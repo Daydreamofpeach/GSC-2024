@@ -16,27 +16,6 @@ export default function Page({ params }: { params: { name: string } }) {
 
     const name = params.name;
     const [loading, setLoading] = useState(false);
-    
-    // const [image, setImage] = useState("");
-
-    // const getImage = async (name: string) => {
-    //     const response = await fetch("/api/imagen", {
-    //         method: "POST",
-    //         headers: {
-    //             "Content-Type": "application/json",
-    //         },
-    //         body: JSON.stringify({
-    //             name,
-    //         }),
-    //     });
-
-    //     const data = await response.json();
-
-    //     // get imageUrl from data
-    //     console.log(data.imageURl);
-    //     setImage(data.imageURl);
-    //     return data;
-    // }
 
     const [response, setResponse] = useState("");
     const [output, setOutput] = useState("The response will appear here...");
@@ -115,7 +94,6 @@ export default function Page({ params }: { params: { name: string } }) {
                 ): (
                     <Button onClick={() => {
                         onSubmit();
-                        // getImage(name);
                     }}>Get Details</Button>
                 )}
             </div>

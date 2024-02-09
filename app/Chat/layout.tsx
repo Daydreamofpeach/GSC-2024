@@ -40,7 +40,7 @@ export default function RootLayout({
                     height={35}
                     className="mr-[0.8px]"
                   />
-                  <h1 className="text-xl">earnForge</h1>
+                  <h1 className="text-xl">edZone</h1>
                 </Link>
               </div>
 
@@ -73,7 +73,7 @@ export default function RootLayout({
                   </li>
                   <li>
                     <Link href="/Chat" className={`${styles.a}`}>
-                      Doubt
+                      Q/A
                     </Link>
                   </li>
                   <li>

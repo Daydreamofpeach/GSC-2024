@@ -30,7 +30,7 @@ export default function HomeLayout({
                 height={35}
                 className="mr-[0.8px]"
               />
-              <h1 className="text-xl">earnForge</h1>
+              <h1 className="text-xl">edZone</h1>
             </Link>
           </div>
 
@@ -57,8 +57,8 @@ export default function HomeLayout({
                 </Link>
               </li>
               <li>
-                <Link href="/Teacher" className={`${styles.a}`}>
-                  Teacher
+                <Link href="/Therapy" className={`${styles.a}`}>
+                  Therapy
                 </Link>
               </li>
               <li>
