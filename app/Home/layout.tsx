@@ -30,7 +30,7 @@ export default function HomeLayout({
                 height={35}
                 className="mr-[0.9px]"
               />
-              <h1 className="text-2xl">earnForge</h1>
+              <h1 className="text-2xl">edZone</h1>
             </Link>
           </div>
 
@@ -63,7 +63,7 @@ export default function HomeLayout({
               </li>
               <li>
                 <Link href="/Chat" className={`${styles.a}`}>
-                  Doubt
+                  Q/A
                 </Link>
               </li>
               <li>
