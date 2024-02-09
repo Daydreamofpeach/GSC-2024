@@ -82,7 +82,7 @@ export default function Page({ params }: { params: { name: string } }) {
             <Toaster />
             <div className='flex flex-col items-center h-screen gap-6'>
                 <h1 className='text-4xl font-extrabold mt-1'>{name}</h1>
-                <h1 className='text-1xl font-bold mt-1'>Creating a response for how to learn <span className="text-red-500">{name}</span> and career paths in it</h1>
+                <h1 className='text-1xl font-bold mt-1'>Creating a response for how to cure <span className="text-red-500">{name}</span>?</h1>
                 <Card className={cn("p-5 whitespace-normal min-w-[320px] sm:w-[500px] md:min-w-[600px]")}>
                     <div className={styles.textwrapper}>
                         <Markdown className={cn("w-full h-full ")}>{`${output}`}</Markdown>
