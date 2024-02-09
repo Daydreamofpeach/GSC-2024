@@ -25,7 +25,7 @@ export default function Page({ params }: { params: { name: string } }) {
         // clear the output
         setOutput("The response will appear here...");
 
-        toast.success("Creating a response for how to learn " + name);
+        toast.success("Creating a response for how to cure " + name);
 
         // set the loading state to true
         setLoading(true);
