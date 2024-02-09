@@ -6,9 +6,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "LearnForge",
+  title: "MedZone",
   description:
-    "An application to help students in learning by leveraging the power of LLM'S",
+    "An application which provides mental health support by leveraging the power of LLMs and community",
 };
 
 export default function RootLayout({

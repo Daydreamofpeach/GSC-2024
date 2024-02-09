@@ -52,13 +52,16 @@ export default function HomeLayout({
           >
             <ul className="flex gap-5">
               <li>
-                <Link href="/Imagen" className={`${styles.a}`}>
-                  Imagen
+                <Link
+                  href="https://multi-chat-app.vercel.app/"
+                  className={`${styles.a}`}
+                >
+                  A-Chat
                 </Link>
               </li>
               <li>
                 <Link href="/Imagine" className={`${styles.a}`}>
-                  Imagine
+                  Discuss
                 </Link>
               </li>
               <li>

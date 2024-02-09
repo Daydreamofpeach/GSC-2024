@@ -10,7 +10,7 @@ import toast, { Toaster } from "react-hot-toast";
 
 export default function Career() {
   const [selectedCareer, setSelectedCareer] = useState(
-    "Please select a career"
+    "Please select a mental health condition"
   );
   const [careerDescription, setCareerDescription] = useState("");
 
@@ -44,16 +44,16 @@ export default function Career() {
   };
 
   const handleGetGuidance = () => {
-    if (!selectedCareer || selectedCareer === "Please select a career") {
-      toast.error("Please select a career");
+    if (!selectedCareer || selectedCareer === "Please select a mental health condition") {
+      toast.error("Please select a mental health condition");
       return;
     }
     router.push(`/Guide-Eval/GetGuidance/${selectedCareer}`);
   };
 
   const handleEvaluate = () => {
-    if (!selectedCareer || selectedCareer === "Please select a career") {
-      toast.error("Please select a career");
+    if (!selectedCareer || selectedCareer === "Please select a mental health condition") {
+      toast.error("Please select a mental health condition");
       return;
     }
     router.push(`/Courses/${selectedCareer}`);
@@ -64,113 +64,113 @@ export default function Career() {
       <Toaster />
       <div className={`${styles.imageContainer}`}>
         <Image
-          src="/icons/html5.svg"
-          alt="html5"
+          src="/icons/anger.png"
+          alt="Anger"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/css3.svg"
-          alt="css3"
+          src="/icons/anxiety.png"
+          alt="Anxiety"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/javascript.svg"
-          alt="javascript"
+          src="/icons/bipolar.png"
+          alt="Bipolar"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/typescript.svg"
-          alt="typescript"
+          src="/icons/depression.png"
+          alt="Depression"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/mongodb.svg"
-          alt="mongodb"
+          src="/icons/weight-loss.png"
+          alt="WeightLoss"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/reactjs.svg"
-          alt="reactjs"
+          src="/icons/loneliness.png"
+          alt="Loneliness"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/express.svg"
-          alt="express"
+          src="/icons/fear.png"
+          alt="Fear"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/tailwindcss.svg"
-          alt="tailwindcss"
+          src="/icons/insomnia.png"
+          alt="Insomnia"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/nextjs.svg"
-          alt="nextjs"
+          src="/icons/listen.png"
+          alt="HearingVoices"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/azure.svg"
-          alt="azure"
+          src="/icons/panic-attack.png"
+          alt="PanicAttack"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/devops.svg"
-          alt="devops"
+          src="/icons/paranoia.png"
+          alt="Paranoia"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/github.svg"
-          alt="github"
+          src="/icons/phobia.png"
+          alt="Phobia"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/git.svg"
-          alt="git"
+          src="/icons/psychosis.png"
+          alt="Psychosis"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/docker.svg"
-          alt="docker"
+          src="/icons/schizophrenia.png"
+          alt="Schizophrenia"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/graphql.svg"
-          alt="graphql"
+          src="/icons/self-confidence.png"
+          alt="SelfConfidence"
           width={80}
           height={80}
           onClick={handleClick}
         />
         <Image
-          src="/icons/kubernetes.svg"
-          alt="kubernetes"
+          src="/icons/self-harm.png"
+          alt="SelfHarm"
           width={80}
           height={80}
           onClick={handleClick}

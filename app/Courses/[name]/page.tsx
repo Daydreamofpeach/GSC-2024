@@ -61,7 +61,7 @@ export default function Page({ params }: { params: { name: string } }) {
       body: JSON.stringify({
         userPrompt: `hello I have obtained a score of ${
           30 - score
-        }/${30} in ${name} related to my performance test in ${name} based on it can you tell me personalized learning path to learn ${name}.`,
+        }/${30} in ${name} related personality test based on my performance can you provide me a path so that I can improve my mental health condition.`,
       }),
     });
 
@@ -69,7 +69,8 @@ export default function Page({ params }: { params: { name: string } }) {
     const data = await response.json();
 
     if (data.error) {
-      toast.error(data.error);
+      toast.error("Something went wrong please try again later");
+      // toast.error(data.error);
       return;
     }
 

@@ -37,7 +37,7 @@ export default function Page({ params }: { params: { name: string } }) {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                userPrompt: `can you tell me how can i learn ${name} and what are the career paths in it?`,
+                userPrompt: `can you tell me what are the steps I can take to cure ${name}?`,
             }),
         });
 
@@ -49,7 +49,8 @@ export default function Page({ params }: { params: { name: string } }) {
         setLoading(false);
 
         if (data.error) {
-            toast.error(data.error);
+            toast.error("Something went wrong!")
+            // toast.error(data.error);
             return;
         }
 

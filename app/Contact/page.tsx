@@ -58,7 +58,7 @@ export default function Contact() {
         setLoading(false);
 
         if (data.error) {
-          toast.error(data.error);
+          toast.error("Something went wrong please try again later");
           return;
         }
 

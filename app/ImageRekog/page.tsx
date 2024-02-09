@@ -9,7 +9,7 @@ import toast, { Toaster } from "react-hot-toast";
 export default function Home() {
   const [file, setFile] = useState([]);
   const [prompt, setPrompt] = useState<string>(
-    "who is the person in the image?"
+    "Describe what is in the image?"
   );
   const [showGenerate, setShowGenerate] = useState(false);
   const [loading, setLoading] = useState(false);
