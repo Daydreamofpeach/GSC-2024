@@ -44,7 +44,10 @@ export default function Career() {
   };
 
   const handleGetGuidance = () => {
-    if (!selectedCareer || selectedCareer === "Please select a mental health condition") {
+    if (
+      !selectedCareer ||
+      selectedCareer === "Please select a mental health condition"
+    ) {
       toast.error("Please select a mental health condition");
       return;
     }
@@ -52,7 +55,10 @@ export default function Career() {
   };
 
   const handleEvaluate = () => {
-    if (!selectedCareer || selectedCareer === "Please select a mental health condition") {
+    if (
+      !selectedCareer ||
+      selectedCareer === "Please select a mental health condition"
+    ) {
       toast.error("Please select a mental health condition");
       return;
     }

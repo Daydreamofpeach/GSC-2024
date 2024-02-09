@@ -60,7 +60,10 @@ export default function HomeLayout({
                 </Link>
               </li>
               <li>
-                <Link href="/Imagine" className={`${styles.a}`}>
+                <Link
+                  href="https://discussion-forum-kappa.vercel.app/"
+                  className={`${styles.a}`}
+                >
                   Discuss
                 </Link>
               </li>
