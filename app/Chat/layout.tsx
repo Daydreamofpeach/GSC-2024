@@ -67,8 +67,8 @@ export default function RootLayout({
                     </Link>
                   </li>
                   <li>
-                    <Link href="/Imagine" className={`${styles.a}`}>
-                      Imagine
+                    <Link href="https://multi-chat-app.vercel.app/" className={`${styles.a}`}>
+                      A-Chat
                     </Link>
                   </li>
                   <li>
