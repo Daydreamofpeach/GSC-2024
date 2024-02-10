@@ -298,8 +298,8 @@ export default function Page({ params }: { params: { name: string } }) {
           )}
           <h1 className="text-1xl font-bold mt-1">
             Based on the performance test we are creating a personalized
-            learning path to cure{" "}
-            <span className="text-red-500">{name} and improve your mental health</span>
+            path to cure{" "}
+            <span className="text-red-500">{name}</span>and improve your mental health
           </h1>
           <Card
             className={cn(
